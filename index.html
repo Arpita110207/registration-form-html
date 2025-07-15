@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <h2>ABC UNIVERSITY, BANGALORE</h2>
+    <header>HURRY UP TO FILL OUT THE REGISTRATION FORM AND ENROLL</header>
+    <br>
+    <!--main form starts finally!-->
+    <main>
+    
+        <form action="index.html" method="get">
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" name="username" placeholder="TYPE YOU NAME HERE" id="username" required>
+        <br><br>
+        <label for="contact">Contact No.:</label>
+        <br>
+        <input type="number" name="contact no." placeholder="TYPE YOUR CONTACT NO. HERE" id="contact" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" name="email" placeholder="TYPE YOUR EMAIL HERE" id="email">
+        <br><br>
+        <label for="password">Password:</label><pre><p>NOTE : password must be atleast 8 characters long.</p></pre>
+        <input type="password" name="password" placeholder="SET YOUR PASSWORD"  id="password" required>
+        <br><br>
+       
+            <label for="country">
+                <select name="Country" id="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Canada">Canada</option></select></label>
+                    <br><br>
+
+                    <label for="state">
+                <select name="State" id="state" required>
+                    <option value="" disabled selected>Select your state</option>
+                    <option value="Maharastra">Maharashtra</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Washington">Washington</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="California">California</option>
+                    <option value="London">London</option>
+                    <option value="Ontario">Ontario</option>
+                </select>
+            </label>
+        <br><br>
+        <label for="city">
+            <select name="City" id="city" required>
+                <option value="" disabled selected>Select your city</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Patna">Patna</option>
+                <option value="Guwahati">Guwahati</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Seattle">Seattle</option>
+                <option value="Anchorage">Anchorage</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="London City">London City</option>
+                <option value="Toronto">Toronto</option>
+            </select></label><br><br>
+<label for="address">Address:</label>
+        <br>
+             <textarea name="address" placeholder="FILL YOUR ADDRESS HERE" id="address" required cols="60" rows="2"></textarea>
+        <br><br>
+        <label for="104"><b><u>SELECT YOUR COURSES:</u></b>
+            <br>
+            <input type="checkbox" name="COURSE" id="104" value="DSA">DSA
+            <br>
+            <input type="checkbox" name="COURSE" id="105" value="Web Development">WEB DEVELOPMENT
+            <br>
+            <input type="checkbox" name="COURSE" id="106" value="Machine learning">MACHINE LEARNING
+            <br>
+            <input type="checkbox" name="COURSE" id="107" value="Data Science">DATA SCIENCE
+            <br>
+            <input type="checkbox" name="COURSE" id="108" value="Android Development">ANDROID DEVELOPMENT
+            <br>
+            <input type="checkbox" name="COURSE" id="109" value="iOS Development">iOS DEVELOPMENT
+            <br>
+            <input type="checkbox" name="COURSE" id="110" value="Game Development">GAME DEVELOPMENT
+            <br>
+            <input type="checkbox" name="COURSE" id="111" value="Cyber Security">CYBER SECURITY
+            <br>
+            
+        </label>
+    
+    </main>
+    <hr>
+    <h3>NOTE: Please fill out all the required fields before submitting.</h3>
+    <hr>
+    <footer>
+    <!--SUBMIT AND RESET BUTTONS-->
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+    </form><!--closed 1st form properly-->
+        <br><br>
+        <a href="feedback.html">
+    <button type="button">Go to Feedback Page</button>
+</a>
+    </footer>  <!--closing footer comes after form closing-->
+    <br><br>
+    <p>Thank you for registering with us!</p>
+    <p>We will contact you soon with further details.</p>
+</body>
+</html>
